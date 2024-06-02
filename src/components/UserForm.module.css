@@ -1,25 +1,3 @@
-.form {
-  max-width: 50rem;
-  padding: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-
-  display: flex;
-  flex-direction: column;
-  row-gap: 1rem;
-
-  /* align-items: center; */
-  & .form__submit {
-    width: 10rem;
-    padding: 0.5rem 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(35, 38, 39);
-    border-radius: 0.3rem;
-    cursor: pointer;
-    font-weight: 600;
-  }
-}
 .row {
   width: 100%;
   display: flex;
