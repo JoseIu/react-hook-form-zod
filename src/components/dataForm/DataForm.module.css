@@ -1,0 +1,27 @@
+.ships {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  & .ships__list {
+    display: flex;
+    gap: 16px;
+  }
+}
+.ship {
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+.ship__selected {
+  background-color: rgb(64, 0, 241);
+  color: rgba(255, 255, 255, 0.959);
+}
+.row__message {
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1rem;
+  color: rgb(237, 74, 74);
+}
