@@ -1,0 +1,10 @@
+.submit {
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(35, 38, 39);
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-weight: 600;
+}
